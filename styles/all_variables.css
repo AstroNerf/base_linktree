@@ -1,0 +1,6 @@
+/* Qu'un seul fichier contenant toutes les variables : plus simple à gérer & à maintenir */
+@import './animations.css';
+@import './boutons.css';
+@import './colors.css';
+@import './fonts.css';
+@import './layout';

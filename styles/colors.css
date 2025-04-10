@@ -1,0 +1,15 @@
+/*  Ton fichier contenant toutes des variables de couleurs pour ton site  */
+:root {
+    --primary: #515251;
+    --primary-dark: #404040;
+    --primary-light: #F6F6F6;
+    --blk: #222222;
+    --wht: #FEFEFE;
+    --alert: #FF4800;
+    --alert-hover: #AD0707;
+    --message: #C2EBC4;
+    --message-hover:#9DD8A0;
+    --shadow-light: #DBDFDB;
+    --shadow-dark: #c9cac9;
+    --static-opacity: rgba(81, 82, 81, 0.17);
+}

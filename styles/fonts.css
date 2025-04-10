@@ -1,0 +1,49 @@
+/* Ton fichier contenant tous tes fonts téléchargées depuis le dossier assets/fonts */
+:root {
+    --font-brand: 'Molgan', serif;
+    --font-main: 'AnkhSanctuary', sans-serif;
+    --font-title: 'Rosewind', sans-serif;
+    --font-alt: 'Trobika', sans-serif;
+    --font-subtext: 'Rudbeckia', serif;
+  }
+
+
+@font-face {
+    font-family: 'AnkhSanctuary';
+    src: url('../assets/fonts/AnkhSanctuary-PVKOB.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Molgan';
+    src: url('../assets/fonts/MolganRegular-YqWj2.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Trobika';
+    src: url('../assets/fonts/TrobikaRegular-8OwXn.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Rosewind';
+    src: url('../assets/fonts/RosewindRegular-R9ejE.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Rudbeckia';
+    src: url('../assets/fonts/RudbeckiaRegular-1j8vv.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }

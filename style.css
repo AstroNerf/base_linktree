@@ -1,0 +1,43 @@
+/*CECI EST TON DOSSIER MAIN CSS DANS LEQUEL TU VAS TRAVAILLER.
+TOUTES LES VARIABLES SONT IMPORTEES D'AUTRES FICHIERS DANS LE DOSSIER STYLES
+*/
+
+/*------  IMPORT   -----*/
+@import './styles/all_variables.css'; /* qu'un seuk fichier qui contient toutes les variables */
+
+
+/*------  RESET CSS  -----*/
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: inherit;
+}
+
+html,
+body {
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    max-width: var(--w-100);
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 10rem ;
+}
+
+h1 {
+    color: black;
+    font-family: var(--font-title);
+    font-size: 32px;
+}
+
+h2 {
+    color: black;
+    font-family: var(--font-main);
+    font-size: 32px;
+}
+
